@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Motorcycles | Sakthi Motors Bajaj Dealership Chinnamanur</title>
+  <meta name="description" content="Explore the complete Bajaj motorcycle catalogue at Sakthi Motors, Chinnamanur. Browse Dominar, Pulsar, Avenger, Platina, CT, and Freedom categories.">
+  <meta name="keywords" content="Bajaj Motorcycles Chinnamanur, Dominar 400, Pulsar NS200, Pulsar N160, Pulsar 220F, Avenger 220, Platina 110, CT110X, Freedom CNG, Sakthi Motors Theni">
+  <meta name="author" content="Sakthi Motors">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Our Motorcycles | Sakthi Motors Bajaj Dealership">
+  <meta property="og:description" content="Explore the complete Bajaj motorcycle range available through Sakthi Motors, Chinnamanur.">
+  <meta property="og:image" content="assets/logo/sm-logo.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/logo/sm-logo.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Global Sticky Header -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="brand-logo" aria-label="Sakthi Motors Home">
+          <img src="assets/logo/sm-logo.svg" alt="Sakthi Motors Logo" width="240" height="54">
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="products.html" class="nav-link active">Products</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <button class="hamburger-btn" aria-label="Toggle mobile menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav-drawer" aria-label="Mobile Navigation">
+    <div class="mobile-nav-header">
+      <img src="assets/logo/sm-logo.svg" alt="Sakthi Motors" width="180" height="40">
+      <button class="mobile-nav-close" aria-label="Close navigation menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="products.html" class="nav-link active">Products</a></li>
+      <li><a href="services.html" class="nav-link">Services</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="mobile-nav-footer">
+      <a href="contact.html" class="btn btn-primary" style="width: 100%;">
+        CONTACT DEALERSHIP
+      </a>
+      <a href="index.html" class="btn btn-outline-white" style="width: 100%; margin-top: 10px;">
+        BACK TO HOME
+      </a>
+    </div>
+  </div>
+
+  <main id="main-content">
+    <!-- Page Hero Banner -->
+    <section class="page-hero">
+      <div class="container">
+        <div class="section-badge on-dark">COMPLETE BAJAJ RANGE</div>
+        <h1 class="page-hero-title">OUR MOTORCYCLES</h1>
+        <p class="page-hero-subtitle">
+          Explore our complete motorcycle catalogue organized by model blocks. Discover specifications, features, and multi-angle views for every motorcycle.
+        </p>
+      </div>
+    </section>
+
+    <!-- Product Category Navigation & Model Blocks Container -->
+    <section class="section section-light" style="padding-top: 36px;">
+      <div class="container">
+        <!-- Quick Jump Pill Navigation -->
+        <nav class="category-pill-nav" aria-label="Motorcycle Category Navigation">
+          <button class="category-pill-btn active" data-target="block-dominar">DOMINAR</button>
+          <button class="category-pill-btn" data-target="block-pulsar">PULSAR</button>
+          <button class="category-pill-btn" data-target="block-avenger">AVENGER</button>
+          <button class="category-pill-btn" data-target="block-platina">PLATINA</button>
+          <button class="category-pill-btn" data-target="block-ct">CT</button>
+          <button class="category-pill-btn" data-target="block-freedom">FREEDOM</button>
+        </nav>
+
+        <!-- Category Blocks (DOMINAR, PULSAR, AVENGER, PLATINA, CT, FREEDOM) -->
+        <div id="category-blocks-container">
+          <!-- Populated dynamically by script.js with all 17 motorcycles -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Dealership Assistance Section -->
+    <section class="section section-white text-center">
+      <div class="container">
+        <div class="section-badge">PERSONALIZED ASSISTANCE</div>
+        <h2 class="section-title">NEED GUIDANCE CHOOSING YOUR MOTORCYCLE?</h2>
+        <p class="section-subtitle centered" style="margin-bottom: 32px;">
+          Our motorcycle consultants at Sakthi Motors in Chinnamanur are available to discuss riding ergonomics, performance, and daily suitability.
+        </p>
+        <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
+          <a href="contact.html" class="btn btn-primary">
+            VISIT OUR SHOWROOM <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            SEND INQUIRY
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Global Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <img src="assets/logo/sm-logo.svg" alt="Sakthi Motors Logo" width="220" height="50">
+          </a>
+          <p class="footer-tagline">Your Journey, Our Commitment</p>
+          <p class="footer-location-sub">Authorized Bajaj Motorcycle Dealership serving Chinnamanur and Theni district.</p>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">QUICK LINKS</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">SUPPORT</h3>
+          <ul class="footer-links">
+            <li><span>Genuine Spare Parts</span></li>
+            <li><span>Insurance Assistance</span></li>
+            <li><span>Finance Assistance</span></li>
+            <li><span>Customer Support</span></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">CONTACT</h3>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <a href="tel:+919384946001">9384946001</a>, 
+                <a href="tel:+919384946002">9384946002</a>, 
+                <a href="tel:+919384946003">9384946003</a>
+              </div>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp"></i>
+              <div>WhatsApp: <a href="https://wa.me/919384946001" target="_blank" rel="noopener noreferrer">9384946001</a></div>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:sakthimotors2016@gmail.com">sakthimotors2016@gmail.com</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Chinnamanur, Theni, Tamil Nadu</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2016 SAKTHI MOTORS. ALL RIGHTS RESERVED.</div>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms.html">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
